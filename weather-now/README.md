@@ -45,6 +45,25 @@ https://open-meteo.com/
 
 📸 𝐒𝐜𝐫𝐞𝐞𝐧𝐬𝐡𝐨𝐭𝐬
 
+![TopUI](https://github.com/shivammude/WeatherNow/blob/master/weather-now/TopUI.png)
+
+![UI](https://github.com/shivammude/WeatherNow/blob/master/weather-now/UI.png)
+
+![AllDetails](https://github.com/shivammude/WeatherNow/blob/master/weather-now/AllDetails.png)
+
+![AutoCompleteFeatureOfCity](https://github.com/shivammude/WeatherNow/blob/master/weather-now/AutocompleteFeatureOfCity.png)
+
+![ReadyAITool](https://github.com/shivammude/WeatherNow/blob/master/weather-now/Ready%20AI%20Tool.png)
+
+![RecommendationByLLM](https://github.com/shivammude/WeatherNow/blob/master/weather-now/RecommendationByLLM.png)
+
+![MyLocation](https://github.com/shivammude/WeatherNow/blob/master/weather-now/My%20Location.png)
+
+![DetailsOfMyLocation](https://github.com/shivammude/WeatherNow/blob/master/weather-now/DetailsOfMyLocation.png)
+
+![SpeedConversion](https://github.com/shivammude/WeatherNow/blob/master/weather-now/SpeedConversion.png)
+
+![TempConversion](https://github.com/shivammude/WeatherNow/blob/master/weather-now/TempConversion.png)
 
 🤝 𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐢𝐧𝐠
 

@@ -1,69 +1,58 @@
-# React + TypeScript + Vite
+𝐖𝐞𝐚𝐭𝐡𝐞𝐫 𝐍𝐨𝐰 🌦️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Weather Now is a React-based web application that provides real-time weather updates using the Open-Meteo API (no authentication required). The app allows users to search for any city and instantly view the current weather conditions in a clean, modern interface. It also integrates LLM (Large Language Model) to give AI-powered weather insights.
 
-Currently, two official plugins are available:
+🚀 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌍 Search weather by city name
+🌡️ View current temperature, humidity, and conditions
+⚡ Powered by Open-Meteo API (no API key needed)
+🤖 AI-powered weather insights using LLM
+📱 Responsive design for desktop and mobile
 
-## Expanding the ESLint configuration
+🛠️ 𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Frontend: React.js, TypeScript, CSS
+Backend/API: Open-Meteo
+(Free Weather API, no auth required)
+AI Integration: LLM for weather-based insights
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+📂 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧 & 𝐒𝐞𝐭𝐮𝐩
+Clone the repository and run the project locally:
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+# Clone the repository
+git clone https://github.com/your-username/weather-now.git
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Navigate to project folder
+cd weather-now
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# Install dependencies
+npm install
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Start the development server
+npm start
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🎉𝐘𝐨𝐮𝐫 𝐚𝐩𝐩 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐨𝐧 𝐡𝐭𝐭𝐩://𝐥𝐨𝐜𝐚𝐥𝐡𝐨𝐬𝐭:𝟑𝟎𝟎𝟎/
+
+🌐 𝐀𝐏𝐈 𝐔𝐬𝐞𝐝
+This project uses the Open-Meteo Weather API, which is free and does not require an API key.
+API Documentation: https://open-meteo.com/
+
+𝐀𝐏𝐈 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐬:
+https://geocoding-api.open-meteo.com/v1/search
+https://api.open-meteo.com/v1/forecast
+https://open-meteo.com/
+
+📸 𝐒𝐜𝐫𝐞𝐞𝐧𝐬𝐡𝐨𝐭𝐬
+
+
+🤝 𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐢𝐧𝐠
+
+Fork the repository
+Create your feature branch (git checkout -b feature-xyz)
+Commit your changes (git commit -m "Added new feature")
+Push to the branch (git push origin feature-xyz)
+Open a Pull Request
+
+📜 License
+This project is open-source and available under the MIT License.
